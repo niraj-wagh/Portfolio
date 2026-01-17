@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Niraj Wagh | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="bg-effects">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+<!-- NAVBAR -->
+<nav>
+    <h2>&lt;/&gt; Niraj Wagh</h2>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+
+<!-- HERO SECTION -->
+ <section class="hero" id="home">
+
+    <!-- HERO TEXT -->
+    <div class="hero-text reveal">
+        <h1>Web Developer</h1>
+        <h2>Hi, 👋<br> I'm <span>Niraj Wagh</span></h2>
+        <p>Computer Science Student | Web Developer</p>
+        <button onclick="openPopup()">Let's Talk</button>
+    </div>
+
+</section>
+
+<!-- TOP RIGHT SQUARE IMAGE (OUTSIDE HERO) -->
+<div class="top-square-img reveal">
+    <img src="my.jpeg" alt="Decor Image">
+</div>
+
+
+<!-- ABOUT -->
+<section class="about reveal pop" id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a Computer Science student passionate about web development,<br>
+        Motivated and detail-oriented fresher with strong academic background,<br> excellent communication skills, and the ability to learn quickly.
+Dedicated to<br> performing assigned responsibilities with professionalism, discipline, and a positive attitude.<br>
+        problem-solving, and building real-world projects using modern technologies.
+
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section class="skills reveal">
+    <h2>Skills</h2>
+    <div class="skill-box">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>PHP</span>
+        <span>MySQL</span>
+        <span>Java</span>
+        <span>Python</span>
+        <span>Git</span>
+        <span>PostgreSQL</span>
+        <span>DBMS</span>
+        <span>C++</span>
+        <span>DSA</span>
+        <span>Node.js</span>
+    </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="education reveal">
+    <h2>Education</h2>
+    <div class="edu-card reveal">
+        <h3>B.Sc Computer Science</h3>
+        <p>K.K. Wagh ACS & CS College,Nashik-422003</p>
+        <p>Final Year Pursing Student </p>
+    </div>
+
+    <div class="edu-card reveal">
+        <h3>HSC (2023)</h3>
+        <p>R.K.M Junior College</p>
+        <p>kalwan,Nashik </p>
+    </div>
+</section>
+
+<section class="cretificate reveal">
+    <h2>Certificates</h2>
+    <div class="certi-card reveal">
+        <h3>DSA Using JAVA</h3>
+        <p>GUVI,virtual</p>
+    </div>
+    <div class="certi-card reveal">
+        <h3>Barclays SoftSkill Programme</h3>
+        <p>GTT Foundation</p>
+    </div>
+    <div class="certi-card reveal">
+        <h3>TechFest 2025 , Runner up</h3>
+        <p>Codeing Competition</p>
+    </div>
+
+
+</section>
+<!-- PROJECTS -->
+<section class="projects reveal" id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card reveal">
+        <h3>High Performance-Base Calculater</h3><br>
+        <p>Developed a high-performance calculator designed for fast and
+accurate computations. The application delivers quick
+processing speed, clean functionality, and an easy-to-use
+interface. Focused on optimizing performance to ensure smooth
+operation without lag, making it suitable for everyday
+mathematical tasks as well as rapid calculation</p>
+        <a href="https://github.com/niraj-wagh/Calculator-.git">View Project</a>
+    </div>
+
+    <div class="project-card reveal">
+        <h3>JavaScript Base Project</h3><br>
+        <p>Developed a JavaScript-based mini project focusing on clean
+coding practices, responsive design, and smooth user
+interaction. The project demonstrates core JavaScript concepts
+such as DOM manipulation, event handling, and logical
+structuring. Built with an emphasis on performance, accuracy,
+and a user-friendly interface, showcasing the ability to apply
+theoretical knowledge into practical, functional output. </p>
+        <a href="https://github.com/niraj-wagh/javascript_mini_project1.git">View Project</a>
+    </div>
+
+    <div class="project-card reveal">
+        <h3>Student Online Exam Portal</h3><br>
+        <p>Project in Progress<br>Developed a student online exam portal with features like exam scheduling, question management, and result generation.</p>
+    </div>
+</section>
+<!-- CONTACT -->
+<section class="contact reveal" id="contact">
+    <h2>Contact Me</h2>
+
+    <div class="contact-card reveal">
+        <p>📧 Gmail: <span>nirajwagh92@gmail.com</span></p>
+
+        <div class="social-links">
+            <a href="https://github.com/niraj-wagh" target="_blank">
+                GitHub
+            </a>
+
+            <a href="https://linkedin.com/in/niraj-wagh" target="_blank">
+                LinkedIn
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT POPUP -->
+<div class="contact-popup" id="contactPopup">
+    <div class="popup-box">
+        <span class="close-btn" onclick="closePopup()">×</span>
+
+        <h2>Let's Talk 💬</h2>
+
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <textarea name="message" placeholder="Enter your message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <p id="status"></p>
+    </div>
+</div>
+
+
+
+<footer>
+    <p>© 2026 Niraj Wagh</p>
+    <p>
+        <a href="https://wa.me/919561577194" target="_blank">WhatsApp</a> |
+        <a href="https://github.com/niraj-wagh" target="_blank">GitHub</a> |
+        <a href="https://linkedin.com/in/niraj-wagh" target="_blank">LinkedIn</a>
+    </p>
+</footer>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+
+
+</body>
+</html>
